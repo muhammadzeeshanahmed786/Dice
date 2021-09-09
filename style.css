@@ -1,0 +1,34 @@
+.container{
+    border: 2px solid black;
+    width: 33px;
+    height: 33px;
+   text-align: center;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+
+
+}
+.container div{
+    width: 9px;
+    height: 9px;
+     /* border: 2px solid black; */
+     padding: 0%;
+     margin: 0%;
+     text-align: center;
+
+}
+
+#special{
+    background-color: black;
+
+    /* width: 4px; */
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+
+}
